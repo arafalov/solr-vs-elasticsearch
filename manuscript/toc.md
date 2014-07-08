@@ -25,10 +25,15 @@ Solr is a Kitchen Sink. Elastic Search is small core + plugins. But what does ES
 5. Check it on command line
 6. Check it in web browser (flash development-only)
 
+Onboarding experience - a separate category or discuss here?
+
 # Cases
 
-## The case of Administration Console 
-diff between Open Source and commercial
+## The case of the Palantír
+Administration console
+
+Discuss difference between Open Source and commercial
+ES suggests registration after 7 days. How? Why? Also shares data with central server (phones home)
 
 ## The case of file-sizes 
 Javadoc, etc
