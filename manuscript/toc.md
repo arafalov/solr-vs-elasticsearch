@@ -50,4 +50,15 @@ How to use, how to modify the sequence (e.g. date formats)
 
 ## The case of Castle in the Cloud
 
+## The case of a Russian doll
+nested documents, finding parents, finding children, finding combined
+ES has pretend nested documents and real nested documents. 
+
+## The case of mismatched socks
+Diferent schemas overlayed on the same index
+How does it work with atomic update?
+
+## The case of stacking barels
+Multi-collection grouping aliases with rolling membership (e.g. for monthly logs collection)
+
 # Complex example
