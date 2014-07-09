@@ -66,4 +66,9 @@ How does it work with atomic update?
 ## The case of stacking barels
 Multi-collection grouping aliases with rolling membership (e.g. for monthly logs collection)
 
+## The case of committed flusher
+Solr has hard/soft commit, reopen/not-reopen searcher (4 states, not all make sense)
+
+ElasticSearch has refresh (soft commit with reopened searcher) and flush (hard commit with searcher not reopened)
+
 # Complex example
