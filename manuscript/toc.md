@@ -35,6 +35,10 @@ Administration console
 Discuss difference between Open Source and commercial
 ES suggests registration after 7 days. How? Why? Also shares data with central server (phones home)
 
+The production cost of Marvel (ES Console) is fairly low ($500/year). However, that's not what it's about. Most likely it is more of a signal. If your company cannot figure out a way to give ES $500 for a useful piece of software (life without Marven/Sense is hard), what chances are your company will be willing to pay significantly higher fees for ES other software/services? And, in that case, how much does ES wants to keep you as a non-paying customer. They still do of course, to grow the ecosystem and community. But, they probably don't mind if you suffer a bit without a useful tool like a console. 
+
+Whereas, Solr bundles the Admin console with the distribution and it is featured prominently in tutorials and troubleshooting guides. One can rely on users having access to the console. With ElasticSearch, not so much.
+
 ## The case of file-sizes 
 Javadoc, etc
 
