@@ -6,7 +6,7 @@ This book will look at the real search use-cases (searching multiple fields, dyn
 
 # Political level
 
-Should this be Solr vs. ElasticSearch. Or LucidImagination vs. ElasticSearch? Or even Cloudera vs. ElasticSearch?
+Should this be Solr vs. ElasticSearch. Or LucidWorks vs. ElasticSearch? Or even Cloudera vs. ElasticSearch?
 
 # Philosophy level
 
