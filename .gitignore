@@ -1,0 +1,3 @@
+installs
+setups/*/elasticsearch/data
+setups/*/elasticsearch/logs
