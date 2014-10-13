@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema name="example-schemaless" version="1.5">
+    <field name="id" type="string" indexed="true" stored="true" required="true" multiValued="false" />
+    <field name="_version_" type="long" indexed="true" stored="true"/>
+
+    <uniqueKey>id</uniqueKey>
+
+    <fieldType name="string" class="solr.StrField" sortMissingLast="true" />
+    <fieldType name="long" class="solr.TrieLongField" precisionStep="0" />
+
+    <fieldType name="booleans" class="solr.BoolField" sortMissingLast="true" multiValued="true"/>
+
+    <fieldType name="tlongs" class="solr.TrieLongField" precisionStep="8" multiValued="true"/>
+    <fieldType name="tdoubles" class="solr.TrieDoubleField" precisionStep="8" multiValued="true"/>
+    <fieldType name="tdates" class="solr.TrieDateField" precisionStep="6" multiValued="true"/>
+
+    <fieldType name="text_general" class="solr.TextField" multiValued="true">
+      <analyzer>
+        <tokenizer class="solr.StandardTokenizerFactory"/>
+        <filter class="solr.LowerCaseFilterFactory"/>
+      </analyzer>
+    </fieldType>
+</schema>
